@@ -15,9 +15,14 @@ You can bypass this process by directly deploying your Cheesecake to Heroku.
 Installation is quite easy, after you've deployed the project, set these environment variables:
 
 ```
-STATUSCAKE_USERNAME		    // Username you want to show the status of
-STATUSCAKE_ACCESS_TOKEN	  // Obtained using the control panel of StatusCake
-SITE_TITLE				        // As expected, title of your account or site
+// Username you want to show the status of
+STATUSCAKE_USERNAME		    
+
+// Obtained using the control panel of StatusCake
+STATUSCAKE_ACCESS_TOKEN	  
+
+// As expected, title of your account or site
+SITE_TITLE
 ```
 You can either use a dotenv file or set those variables natively. If you have not correctly configured the variables, no worries. You will receive a 503 saying that you've misconfigured your installation.
 
