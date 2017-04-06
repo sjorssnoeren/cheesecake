@@ -10,14 +10,14 @@ For the deployment of this status page you'll need a server space compatible Nod
 (All versions of Node.js later than 6.0, of 5.x versions with the ES6 standard enabled)
 
 You can bypass this process by directly deploying your Cheesecake to Heroku.  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/node-js-sample)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Installation is quite easy, after you've deployed the project, set these environment variables:
 
 ```
-STATUSCAKE_USERNAME		  // Username you want to show the status of
+STATUSCAKE_USERNAME		    // Username you want to show the status of
 STATUSCAKE_ACCESS_TOKEN	  // Obtained using the control panel of StatusCake
-SITE_TITLE				  // As expected, title of your account or site
+SITE_TITLE				        // As expected, title of your account or site
 ```
 You can either use a dotenv file or set those variables natively. If you have not correctly configured the variables, no worries. You will receive a 503 saying that you've misconfigured your installation.
 
