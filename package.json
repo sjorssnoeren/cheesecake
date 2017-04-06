@@ -1,0 +1,25 @@
+{
+  "name": "cheesecake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "./node_modules/eslint/bin/eslint.js lib"
+  },
+  "author": "Sjors Snoeren",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^4.3.1",
+    "dotenv": "^4.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "express": "^4.15.2",
+    "hbs": "^4.0.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  }
+}

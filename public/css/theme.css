@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+body {
+  color: #34495E;
+  background-color: #F6FBFE;
+  font-family: 'Karla', sans-serif;
+}
+
+body a {
+  color: inherit;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+.dimmed {
+  opacity: 0.5;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.header {
+  background-color: #FFFFFF;
+  border-color: #E5EDF2;
+}
+
+.notification--bad {
+  color: #FFFFFF;
+  background-color: #FF2865;
+}
+
+.notification--good {
+  color: #FFFFFF;
+  background-color: #50E3C2;
+}
+
+.box {
+  background-color: #FFFFFF;
+  border-color: #E5EDF2;
+}
+
+/* Last bottom-border color. Used in after to prevent double borders */
+.box:after {
+  background-color: #E5EDF2;
+}
+
+.tests__item {
+  border-color: #E5EDF2;
+}
+
+.tests__badge--bad {
+  color: #FF2865;
+  border-color: #FF2865;
+}
+
+.tests__badge--good {
+  color: #50E3C2;
+  border-color: #50E3C2;
+}

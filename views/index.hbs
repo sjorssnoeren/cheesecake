@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title>{{title}} - Statuspage</title>
+  <link href="/css/layout.css" type="text/css" rel="stylesheet">
+  <link href="/css/theme.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="grid__container">
+      <h1>{{title}}'s <span class="dimmed">Statuspage</span></h1>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="grid__container">
+      <div class="notification {{this.status.className}}">{{this.status.message}}</div>
+
+      <div class="tests box">
+        <ul class="tests__list">
+          {{#each tests}}
+            <li class="tests__item">
+              <span class="tests__badge {{this.statusClassName}}">
+                {{this.status}}
+              </span>
+
+              <span class="tests__item--text-wrap">
+                {{this.name}}
+              </span>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Powered by <a href="https://github.com/sjorssnoeren/cheesecake">Cheesecake</a> ~ 🍰 Beautiful Instant Statuspages for Statuscake</p>
+  </footer>
+</body>
+</html>
