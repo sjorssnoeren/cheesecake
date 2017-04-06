@@ -1,14 +1,14 @@
 {
   "name": "cheesecake",
   "version": "1.0.0",
-  "description": "",
+  "description": "Beautiful Instant Statuspages for Statuscake",
   "main": "index.js",
   "scripts": {
     "start": "node index",
     "test": "./node_modules/eslint/bin/eslint.js lib"
   },
   "author": "Sjors Snoeren",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "boom": "^4.3.1",
     "dotenv": "^4.0.0",
