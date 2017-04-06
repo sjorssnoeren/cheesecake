@@ -1,0 +1,6 @@
+{
+  "name": "Cheesecake",
+  "description": "Beautiful Instant Statuspages for Statuscake",
+  "repository": "https://github.com/sjorssnoeren/cheesecake",
+  "keywords": ["node", "express", "static"]
+}
