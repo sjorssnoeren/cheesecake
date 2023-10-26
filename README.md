@@ -15,8 +15,6 @@ You can bypass this process by directly deploying your Cheesecake to Heroku.
 Installation is quite easy, after you've deployed the project, set these environment variables:
 
 ```
-// Username you want to show the status of
-STATUSCAKE_USERNAME=Foo	    
 
 // Obtained using the control panel of StatusCake
 STATUSCAKE_ACCESS_TOKEN=3123423432	  
